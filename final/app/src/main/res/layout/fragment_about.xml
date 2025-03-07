@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.AboutFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:background="@drawable/top"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/bentham"
+                        android:gravity="center"
+                        android:text="About Us"
+                        android:textColor="#ffffff"
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="MissingConstraints" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="20dp"
+                        android:layout_marginBottom="60dp"
+                        android:background="@drawable/white_back"
+                        android:orientation="vertical"
+                        app:layout_constraintTop_toBottomOf="@+id/tv1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Welcome to Dreamy Delights, where every bite is a journey into a world of sweetness and imagination! Nestled in the heart of the community, our dessert shop is a haven for those with a passion for all things sugary and sublime."
+                            android:fontFamily="@font/bentham"
+                            android:textColor="#8F6251"
+                            android:textSize="18dp"
+                            android:gravity="center"
+                            android:layout_margin="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="At Dreamy Delights, we believe that desserts are not just treats; they are experiences that evoke joy and nostalgia. Our talented pastry chefs craft each creation with love and artistry, using only the finest ingredients to ensure that every dessert is a masterpiece."
+                            android:fontFamily="@font/bentham"
+                            android:textColor="#8F6251"
+                            android:textSize="18dp"
+                            android:gravity="center"
+                            android:layout_margin="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" Whether you're celebrating a special occasion or simply indulging in a moment of self-care, Dreamy Delights is here to make your sweet dreams come true."
+                            android:fontFamily="@font/bentham"
+                            android:textColor="#8F6251"
+                            android:textSize="18dp"
+                            android:gravity="center"
+                            android:layout_margin="15dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Our Promise"
+                            android:fontFamily="@font/bentham"
+                            android:textColor="#8F6251"
+                            android:textSize="30dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:layout_marginTop="30dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/imageView3"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                app:srcCompat="@mipmap/cupcake"
+                                android:layout_marginTop="10dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="AUTHENTIC RECIPES"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:layout_marginTop="5dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Our products are based on traditional home-style recipes, using fresh ingredients."
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:gravity="center"
+                                android:textSize="20dp"
+                                android:layout_marginTop="5dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/imageView4"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                app:srcCompat="@mipmap/love"
+                                android:layout_marginTop="10dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="BAKED WITH LOVE"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:layout_marginTop="5dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Our passion for baking is poured into every recipe, serving smiles on a plate everyday."
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:gravity="center"
+                                android:textSize="20dp"
+                                android:layout_marginTop="5dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/imageView5"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                app:srcCompat="@mipmap/bestprice"
+                                android:layout_marginTop="10dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="HONESTLY PRICED"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:layout_marginTop="5dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="We constantly strive to offer the best products at the right prices."
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:gravity="center"
+                                android:textSize="20dp"
+                                android:layout_marginTop="5dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/imageView6"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                app:srcCompat="@mipmap/quality"
+                                android:layout_marginTop="10dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="COMMITTED TO QUALITY"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:layout_marginTop="5dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="From our ingredients to our kitchen operations and guest services, we always prioritize quality."
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:gravity="center"
+                                android:textSize="20dp"
+                                android:layout_marginTop="5dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

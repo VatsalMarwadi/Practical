@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.FaqsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:background="@drawable/top"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/bentham"
+                        android:gravity="center"
+                        android:text="FAQs"
+                        android:textColor="#ffffff"
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="MissingConstraints" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="20dp"
+                        android:layout_marginBottom="60dp"
+                        android:background="@drawable/white_back"
+                        android:orientation="vertical"
+                        app:layout_constraintTop_toBottomOf="@+id/tv1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="About Us"
+                                android:textSize="15sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="10dp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q. Who is the owner of Dreamy Delights?"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dreamy Delights is owned by a group of college friends who came together to create this popular brand. Their shared passion for quality food and desserts has driven the success of their venture."
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:gravity="start"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#D9D9D9"
+                            android:layout_margin="10dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="About Us Products"
+                                android:textSize="15sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q. Are Dreamy Delights brownies eggless?"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"
+                                android:gravity="start" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="We offer eggless variants for most of our cakes, pastries and brownies."
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:gravity="start"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q. How do you order from Dreamy Delights?"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"
+                                android:gravity="start"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="You can order from Dreamy Delights online through our Application by clicking on the ‘Order Online’ option."
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:gravity="start"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q. How long do Theobroma brownies last?"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"
+                                android:gravity="start"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="The shelf life of our brownies is 4 days, if stored in a cool ambient temperature."
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:gravity="start"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q. How long can I keep your products and how do I store them?"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"
+                                android:gravity="start"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="All our products are freshly baked or prepared every day and are free of any preservatives. You can find the shelf life of our products in the descriptions on our Application. Our packaged goods including the breads, crackers, cookies have the shelf-life printed on the labels."
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:gravity="start"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q. Can I microwave Theobroma products before consuming them?"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"
+                                android:gravity="start"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Ideally, our breads should not be microwaved. Our savouries can be grilled or heated in an oven. Our brownies and cakes are best eaten at room temperature – you can remove them from the refrigerator 15-20 minutes before consumption."
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:gravity="start"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#D9D9D9"
+                            android:layout_margin="10dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Ingredients &amp; Allergens"
+                                android:textSize="15sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q. Does Dreamy Delights offer sugar-free products?"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Yes,We offer sugar-free products on our regular menu."
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:gravity="start"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q. Are Dreamy Delights products vegan, gluten-free?"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="We do not offer vegan, gluten-free products on our regular menu."
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:gravity="start"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q. What are the allergens included in your products?"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="All our product descriptions on our website state the allergens included in the making of the product."
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:gravity="start"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#D9D9D9"
+                            android:layout_margin="10dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Outdoor Events, Corporate Orders, Wedding Orders"
+                                android:textSize="15sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q. Do you offer catering services for events?"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="No, we do not offer catering services. We focus exclusively on preparing and serving the items listed on our in-store menu."
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:gravity="start"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q. Can Dreamy Delights help me with products for corporate orders &amp; gifting?"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Unfortunately, we do not currently offer specialized corporate orders or gifting services. We focus on providing our standard menu items for individual and in-store purchases."
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:gravity="start"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q. Can I order customized or made-to-order products?"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="No, Dreamy Delights does not offer customized or made-to-order products. Their offerings are pre-designed and available as is, ensuring a consistent quality and experience for all customers. If you're looking for specific items, you can choose from their existing range of delicious products."
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:gravity="start"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#D9D9D9"
+                            android:layout_margin="10dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Marketing &amp; PR"
+                                android:textSize="15sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q. How can I reach out to the team for collaborations, or PR related inputs?"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dreamy Delights does not currently accept inquiries for collaborations or PR-related inputs. They focus on their existing operations and offerings, and do not have a process in place for external partnerships at this time."
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#8F6251"
+                                android:layout_marginHorizontal="10dp"
+                                android:gravity="start"
+                                android:layout_marginBottom="10dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
