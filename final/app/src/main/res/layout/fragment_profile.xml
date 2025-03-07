@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    tools:context=".fragment.ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:background="@drawable/top"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/ivuser"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="60dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:src="@mipmap/profile"
+                        android:clickable="true"/>
+
+                    <TextView
+                        android:id="@+id/tvUname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:fontFamily="@font/bentham"
+                        android:text="User Name"
+                        android:textColor="#ffffff"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="@+id/ivuser"
+                        app:layout_constraintStart_toStartOf="@+id/ivuser"
+                        app:layout_constraintTop_toBottomOf="@+id/ivuser" />
+
+                    <TextView
+                        android:id="@+id/tvEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email Id"
+                        android:textColor="#ffffff"
+                        android:fontFamily="@font/bentham"
+                        android:textSize="20sp"
+                        app:layout_constraintEnd_toEndOf="@+id/tvUname"
+                        app:layout_constraintStart_toStartOf="@+id/tvUname"
+                        app:layout_constraintTop_toBottomOf="@+id/tvUname" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="380dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginBottom="24dp"
+                        android:background="@drawable/white_back"
+                        android:elevation="3dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvEmail">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp">
+
+                            <LinearLayout
+                                android:id="@+id/tvEditProfile"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0.5"
+                                android:background="@drawable/grey_back"
+                                android:elevation="5dp"
+                                android:orientation="vertical">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="12dp"
+                                    android:background="@drawable/circle_back">
+
+                                    <ImageView
+                                        android:id="@+id/imageView5"
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        app:srcCompat="@mipmap/userprofile" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                <TextView
+                                    android:id="@+id/textView5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:layout_weight="1"
+                                    android:text="Edit Profile"
+                                    android:fontFamily="@font/bentham"
+                                    android:textAlignment="center"
+                                    android:textColor="#000000"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:layout_weight="0.5"
+                                android:background="@drawable/grey_back"
+                                android:elevation="5dp"
+                                android:orientation="vertical">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="12dp"
+                                    android:background="@drawable/circle_back">
+
+                                    <ImageView
+                                        android:id="@+id/imageView6"
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        app:srcCompat="@mipmap/takeaway" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                <TextView
+                                    android:id="@+id/textView6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:layout_weight="1"
+                                    android:text="Your Orders"
+                                    android:textAlignment="center"
+                                    android:textColor="#000000"
+                                    android:fontFamily="@font/bentham"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="15dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvAbout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="About Us"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                android:textColor="#000"
+                                android:fontFamily="@font/bentham"
+                                android:layout_margin="5dp"
+                                android:drawableEnd="@drawable/right_arrow_backup_2_svgrepo_com"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#D9D9D9"
+                                android:layout_margin="10dp"/>
+
+                            <TextView
+                                android:id="@+id/tvContact"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Contact Us"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#000"
+                                android:layout_margin="5dp"
+                                android:drawableEnd="@drawable/right_arrow_backup_2_svgrepo_com"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#D9D9D9"
+                                android:layout_margin="10dp"/>
+
+                            <TextView
+                                android:id="@+id/tvFaqs"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="FAQs"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#000"
+                                android:layout_margin="5dp"
+                                android:drawableEnd="@drawable/right_arrow_backup_2_svgrepo_com"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#D9D9D9"
+                                android:layout_margin="10dp"/>
+
+                            <TextView
+                                android:id="@+id/tvPrivacy"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Privacy Policy"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/bentham"
+                                android:textColor="#000"
+                                android:layout_margin="5dp"
+                                android:drawableEnd="@drawable/right_arrow_backup_2_svgrepo_com"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/tvLogout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:text="Log Out"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:background="@drawable/back_button"
+                android:fontFamily="@font/bentham"
+                android:textColor="#ffffff"
+                tools:ignore="MissingConstraints"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

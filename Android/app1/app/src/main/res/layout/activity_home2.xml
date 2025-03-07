@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".home2_Activity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter User Name"
+        android:background="@drawable/home"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:paddingRight="5dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email Id"
+        android:background="@drawable/home"
+        android:drawableStart="@drawable/baseline_attach_email_24"
+        android:paddingRight="5dp"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Contact No"
+        android:background="@drawable/home"
+        android:drawableStart="@drawable/baseline_add_ic_call_24"
+        android:paddingRight="5dp"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:background="@drawable/home"
+        android:drawableStart="@drawable/baseline_app_blocking_24"
+        android:paddingRight="5dp"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

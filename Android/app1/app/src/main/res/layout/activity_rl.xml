@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rlActivity">
+
+    <TextView
+        android:id="@+id/tvCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:layout_centerInParent="true"
+        android:text="center"
+        android:textSize="25sp"></TextView>
+
+    <Button
+        android:id="@+id/btnTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvCenter"
+        android:layout_centerHorizontal="true"
+        android:text="Above"></Button>
+
+    <Button
+        android:id="@+id/btnBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCenter"
+        android:layout_centerHorizontal="true"
+        android:text="Bottom"></Button>
+
+    <Button
+        android:id="@+id/btnLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/tvCenter"
+        android:layout_centerVertical="true"
+        android:text="Left"></Button>
+
+    <Button
+        android:id="@+id/btnRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvCenter"
+        android:layout_centerVertical="true"
+        android:text="Right"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottom"
+        android:layout_alignParentBottom="true"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"></TextView>
+
+</RelativeLayout>

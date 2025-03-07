@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context=".otpActivity">
+
+    <EditText
+        android:id="@+id/etOtp1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_et"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:maxLength="1"
+        android:inputType="number"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/etOtp2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_et"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:maxLength="1"
+        android:inputType="number"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/etOtp3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_et"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:maxLength="1"
+        android:inputType="number"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/etOtp4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_et"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:maxLength="1"
+        android:inputType="number"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/etOtp5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_et"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:maxLength="1"
+        android:inputType="number"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/etOtp6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_et"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:maxLength="1"
+        android:inputType="number"/>
+
+</LinearLayout>
